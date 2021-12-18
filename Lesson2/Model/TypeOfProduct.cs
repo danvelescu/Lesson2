@@ -8,6 +8,6 @@ namespace Lesson2.Model
 {
     public enum TypeOfProduct
     {
-        Food, Construction_materials, For_home, Fabric
+        Food, Construction_materials, For_home, Fabric, Other
     }
 }

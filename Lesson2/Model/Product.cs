@@ -19,5 +19,21 @@ namespace Lesson2.Model
         public string Name { get; set; }
         public TypeOfProduct TypeOfProduct { get; set; }
         public string Description { get; set; }
+
+        public override string ToString()
+        {
+            return "{" +
+                "ID:" +
+                this.Id +
+                "Price:" +
+                this.Price +
+                "Name:" +
+                this.Name +
+                "Description:" +
+                this.Description +
+                "Type of product:" +
+                this.TypeOfProduct.ToString() +
+                "}";
+        }
     }
 }
